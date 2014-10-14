@@ -1,0 +1,83 @@
+
+-help -- Displays this help
+
+---- topuri---
+
+-top         -- Shows top ten scores
+-tope         -- Shows top ten scores ( all time, incepand cu 03.03 neresetabil )
+-tophour   -- Shows top ten scores in last hour 
+-topday    -- Shows top ten scores in last day
+-topweek   -- Shows top ten scores in last week
+
+-toprun         -- Shows top ten runs
+-toperun         -- Shows top ten runs ( all time, incepand cu 03.03 neresetabil )
+-tophourun    -- Shows top ten runs in last hour 
+-topdayrun    -- Shows top ten runs in last day
+-topweekrun   -- Shows top ten runs in last week
+
+- topluky   -- -- Shows top ten luky points
+
+---statistici----
+
+-topv -- arata top al vitezei medii de tastare
+-topvi -- arata top al vitezei instantanee de tastare
+-topevi -- arata top al vitezei instantanee de tastare ( all time, incepand cu 03.03 neresetabil )
+-topvr -- arata top al vitezei de reactie ( cel mai rapid raspuns )
+-topevr -- arata top al vitezei de reactie ( cel mai rapid raspuns ) all time, incepand cu 03.03 neresetabil )
+-topr -- arata top reusita ( Reusita = procent de cate ori ai raspuns primul din totalul raspunsurilor punctate)
+-topp  -- arata topul premiilor adunate
+-showallrang
+-topd -- top dupa numarul victoriilor la duel
+-topdz -- top dupa numarul victoriilor la duel castigate azi
+-toprec -- top dupa numarul de intrebari la care se detine cel ami rapid raspuns
+----------------------
+-si  -- trimite informatii despre tine
+-sip nick -- trimite informatii despre jucatorul nick
+
+-----duel-----------
+
+-duel  -- pentru a lansa o provocare catre oricine doreste un duel ( adik are chef de scandal )
+-dduel tinta -- provocare lansata catre orice pereche avand coechipier de echipa jucatorul " tinta "
+-duelt tinta-miza - provocare lansata catre un anumit jucator "tinta" cu o anumita miza ( puncte care se vor scadea de la cel care pierde si aduna la cel ce castga )
+--duelta tinta-miza identic cu -duelt tinta-miza, doar ca ofera celui provocat un avantaj de 5 raspunsuri( duelul pleaca de la scorul 0-5)
+-aduel -- pentru a accepta o provocare deja lansata
+-acdduel -- coleg care accepta PRIMUL  duelull al dublu
+-adduel -- pentru a accepta provocarea la dublu duel
+-myduel -- afiseaza duelurile pe care le-ai avut
+
+
+
+duelul - intrecere paralela cu jocul de trivia, intre doi jucatori, castiga cel ce da mai multe raspunsuri primul
+         castigatorul primeste un bonus de 150 puncte + diferenta (de raspusuri) x 10
+         pierzatorul pierde diferenta ( de raspunsuri) x 10
+         duelul tine 15 intrebari
+
+------echipe----------
+
+-showteam     - arata numele echipelor si puctele pe care le au
+-topmyteam    - top al membrilor echipei tale functie de punctele facute pentru echipa
+-topteam
+-showTeams    - arata echipele cu membri lor
+-leaveteam    - comanda pentru parasirea echipei
+
+
+--pentru operatori
+
+-addq intrebare#raspuns --se poate folosi pentru a propune o intrebare, sau pentru a raposta o neregula la o intrebare (exemplu : -addq 25745#raspunsul are un space dupa)
+
+--pentru admini
+-modq   --modifica intrebarea 
+-showq   -- arata intrebarea cu numarul ...( exemplu -showq 48756 --arata intrebarea 48756)
+-createmotd -- creaza motd ( pentru a scrie motd trebuie data comanda -motd, la fix oricum trivia va scrie noul motd)
+-motd -- scrie motd ( adaugand top10 al zilei )
+
+
+pentru owneri 
+ -addteam nume-numar - adauga echipa nume in pozitia numar ( grija sa nu fie ocupata pozitia, foloseste -showteam inainte pentru verificare)
+ -addmember nick-numar - adauga ca membru pe nick echipei cu numarul numar
+ -delmember nick       - scoate un jucator din echipa
+ -loadsaveH -- incarca scorurile salvate la inceputul orei
+ -loadsaveD -- incarca scorurile salvate la inceputul zilei 
+ -slc -- arata logul comenzilor date de owneri
+ -resetpoints -- reseteaza punctele
+

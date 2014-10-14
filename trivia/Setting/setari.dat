@@ -1,0 +1,8 @@
+1-boolautoincetinire seteaza cu unu daca vrei ca trivia sa curga mai incet cand nu se joaca sau 0 cand nu vrei*1
+2-cu cat se mareste timpul pana la urmatorul hint daca boolincetinire e 1*0
+3-ce valoare maxima va avea distanta intre hinturi cand autoincetinirea e 1*0
+4-numar de intrebari la care trebuie sa se raspunda pentru a aparea in topurile cu barem*50
+5-numar de intrebari la care se calculeaza compensarea*15
+6-numar intrebari cat tine duelul*15
+7-valoarea bonusului pentru duel*150
+8-numarul maxim de jucatori intr-o echipa*7
