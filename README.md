@@ -9,4 +9,4 @@ To install it make sure you have the latest lua-rocks installed ( minimum lua 5.
 - execute -resetpoints the in main chatroom as a declared owner within the "trivia.lua" file
 - reload your scripts again
 
-Your done! :D
+Done! :D
